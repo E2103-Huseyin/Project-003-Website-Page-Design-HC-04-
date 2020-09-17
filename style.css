@@ -8,112 +8,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-main {
-  background-color: #f4f4f4;
-  width: 100%;
-  color: white;
-  border-top: 3px solid #a9508b;
-}
-main > div:nth-of-type(1) {
-  background-image: url(../img/showcase.jpg);
-  background-size: cover;
-  width: 100%;
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-main > div:nth-of-type(1) > div:nth-of-type(1) {
-  padding-top: 50px;
-  font-size: 26px;
-  text-align: center;
-}
-main > div:nth-of-type(1) > div:nth-of-type(2) {
-  width: 80%;
-  padding: 25px 5px 5px 5px;
-  margin: 20px;
-  font-size: 22px;
-  text-align: center;
-}
-main > div:nth-of-type(2) {
-  background-color: #35424a;
-  height: 100px;
-  padding-top: 29px;
-}
-main > div:nth-of-type(2) > div:nth-of-type(1) {
-  margin-right: 1%;
-  margin-left: 10%;
-  float: left;
-}
-main > div:nth-of-type(2) > div:nth-of-type(1) > h3 {
-  font-size: 23px;
-}
-main > div:nth-of-type(2) > div:nth-of-type(2) {
-  float: right;
-  margin-right: 10%;
-  display: flex;
-  flex-direction: row;
-}
-main > div:nth-of-type(2) > div:nth-of-type(2) > div {
-  margin-right: 7px;
-}
-main > div:nth-of-type(2) > div:nth-of-type(2) > div > * {
-  height: 35px;
-}
-main > div:nth-of-type(2) > div:nth-of-type(2) > div > button {
-  color: white;
-  border: none;
-  width: 100px;
-  background-color: #a9508b;
-}
-main > div:nth-of-type(2) > div:nth-of-type(2) > div > input {
-  width: 280px;
-  padding-left: 5px;
-}
-main > div:nth-of-type(3) {
-  border: 5px solid red;
-  width: 90%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  color: black;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  padding: 30px;
-}
-main > div:nth-of-type(3) > div {
-  width: 33.33%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-main > div:nth-of-type(3) > div > div {
-  padding: 10px;
-  border: 2px solid green;
-}
-main > div:nth-of-type(3) > div > div:nth-of-type(2) > h3 {
-  font-size: 18px;
-}
-main > div:nth-of-type(3) img {
-  width: 90px;
-}
-
-footer {
-  background-color: #fffaf0;
-  width: 100%;
-  padding: 30px;
-}
-footer > div {
-  width: 100%;
-  margin: auto;
-  text-align: center;
-  margin-top: 5px;
-}
-
 .toggle {
   background-color: #35424a;
   color: white;
@@ -161,6 +55,117 @@ footer > div {
 .toggle > div > div:nth-of-type(2) > div a:hover {
   color: #ddd;
   font-weight: bolder;
+}
+
+main {
+  background-color: #f4f4f4;
+  width: 100%;
+  color: white;
+  border-top: 3px solid #a9508b;
+}
+main > div:nth-of-type(1) {
+  background-image: url(../img/showcase.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main > div:nth-of-type(1) > div:nth-of-type(1) {
+  padding-top: 30px;
+  font-size: 26px;
+  text-align: center;
+}
+main > div:nth-of-type(1) > div:nth-of-type(2) {
+  width: 85%;
+  padding: 25px 5px 5px 5px;
+  margin: 20px;
+  font-size: 22px;
+  text-align: center;
+}
+main > div:nth-of-type(2) {
+  background-color: #35424a;
+  height: 100px;
+  padding-top: 29px;
+}
+main > div:nth-of-type(2) > div:nth-of-type(1) {
+  margin-right: 1%;
+  margin-left: 10%;
+  float: left;
+}
+main > div:nth-of-type(2) > div:nth-of-type(1) > h3 {
+  font-size: 23px;
+}
+main > div:nth-of-type(2) > div:nth-of-type(2) {
+  float: right;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: row;
+}
+main > div:nth-of-type(2) > div:nth-of-type(2) > div {
+  margin-right: 7px;
+}
+main > div:nth-of-type(2) > div:nth-of-type(2) > div > * {
+  height: 35px;
+}
+main > div:nth-of-type(2) > div:nth-of-type(2) > div > button {
+  color: white;
+  border: none;
+  width: 100px;
+  background-color: #a9508b;
+}
+main > div:nth-of-type(2) > div:nth-of-type(2) > div > input {
+  width: 280px;
+  padding-left: 5px;
+}
+main > div:nth-of-type(3) {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 30px;
+}
+main > div:nth-of-type(3) > div {
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main > div:nth-of-type(3) > div > div {
+  padding: 10px;
+}
+main > div:nth-of-type(3) > div > div:nth-of-type(2) > h3 {
+  font-size: 18px;
+}
+main > div:nth-of-type(3) img {
+  width: 90px;
+}
+
+footer {
+  background-color: #fffaf0;
+  width: 100%;
+  padding: 30px;
+  border-top: 3px solid #a9508b;
+}
+footer > div {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 5px;
+}
+
+@media (max-width: 800px) {
+  .logo {
+    min-width: 85%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
