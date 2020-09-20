@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.toggle {
+  background-color: #35424a;
+  color: white;
+  min-height: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.toggle > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.toggle > div > div {
+  padding: 10px;
+  margin-left: 3%;
+}
+.toggle > div > div:nth-of-type(1) {
+  font-size: 18px;
+}
+.toggle > div > div:nth-of-type(1) span {
+  color: #a9508b;
+  font-size: 30px;
+}
+.toggle > div > div:nth-of-type(2) {
+  display: flex;
+  flex-direction: row;
+}
+.toggle > div > div:nth-of-type(2) > div {
+  margin: 0 20px;
+  font-size: 12px;
+}
+.toggle > div > div:nth-of-type(2) > div > a {
+  font-weight: 200;
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+.toggle > div > div:nth-of-type(2) > div > a#home {
+  color: #a9508b;
+}
+.toggle > div > div:nth-of-type(2) > div a:visited {
+  color: brown;
+}
+.toggle > div > div:nth-of-type(2) > div a:hover {
+  color: #ddd;
+  font-weight: bolder;
+}
+
+main {
+  background-color: #35424a;
+  height: 100px;
+  padding-top: 29px;
+  border-top: 3px solid #a9508b;
+}
+main > div:nth-of-type(1) {
+  margin-right: 1%;
+  margin-left: 10%;
+  float: left;
+}
+main > div:nth-of-type(1) > h3 {
+  font-size: 23px;
+  color: #fff;
+}
+main > div:nth-of-type(2) {
+  float: right;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: row;
+}
+main > div:nth-of-type(2) > div {
+  margin-right: 7px;
+}
+main > div:nth-of-type(2) > div > * {
+  height: 35px;
+}
+main > div:nth-of-type(2) > div > button {
+  color: white;
+  border: none;
+  width: 100px;
+  background-color: #a9508b;
+}
+main > div:nth-of-type(2) > div > input {
+  width: 180px;
+  padding-left: 5px;
+}
+
+article {
+  background-color: #f4f4f4;
+  border: 0.1px solid #f4f4f4;
+  padding-bottom: 80px;
+}
+article > div {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 10px;
+  width: 80%;
+  margin: 30px auto;
+}
+article > div h6 {
+  font-size: 18px;
+  padding-bottom: 16px;
+}
+article > div > :nth-of-type(2) {
+  background-color: #35424a;
+  grid-area: 1/2/3/2;
+  padding: 40px 10px;
+  height: 70%;
+  width: 90%;
+  color: white;
+}
+article > div > :nth-of-type(3) {
+  background-color: #35424a;
+  color: white;
+  padding: 10px;
+}
+
+footer {
+  background-color: #fffaf0;
+  width: 100%;
+  padding: 30px;
+  border-top: 3px solid #a9508b;
+}
+footer > div {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 5px;
+}
+
+@media (max-width: 800px) {
+  .logo {
+    min-width: 85%;
+  }
+}
+
+/*# sourceMappingURL=about.css.map */
